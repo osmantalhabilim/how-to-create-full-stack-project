@@ -16,30 +16,34 @@ Projeyi bilgisayarınızda çalıştırmak için repoyu klonladıktan sonra aşa
 cd frontend
 npm install
 npm run dev
+```
 Frontend varsayılan olarak http://localhost:5173 adresinde çalışacaktır.
 
 🛠️ Backend (Express.js)
+```bash
 npm install
 npm run dev
+```
 Backend varsayılan olarak http://localhost:3000 üzerinde çalışır ama belirlediğiniz 5000 portunda çalışacaktır.
 
 Node.js'in yüklü olduğundan emin olun 👉 https://nodejs.org
 
+```bash
 📁 Proje Yapısı
 /proje-kök-dizini
   /frontend       → React + Vite uygulaması
     /src
-      /components
-      /pages
       /assets
-    App.jsx
-    main.jsx
-
+      App.jsx
+      main.jsx
+```
+```bash
+/proje-kök-dizini
   /backend        → Express.js sunucusu
-    /routes
-    /controllers
-    server.js
-    
+    /src
+      /index.js
+ ```
+
 🧠 Özellikler
 ⚡ Vite ile hızlı frontend geliştirme
 
@@ -53,6 +57,8 @@ Node.js'in yüklü olduğundan emin olun 👉 https://nodejs.org
 GitHub: https://github.com/osmantalhabilim/
 
 E-posta: tr.bilim19@gmail.com
+
+Kurulum yapılırken çekilen video: https://youtu.be/PEgOqVXJTNk
 
 ⭐ Hakkımda Kısa Bilgi
 Ben bir geliştiriciyim ve bu yolda öğrendiklerimi, yaptıklarımı paylaşmaktan keyif alıyorum.
